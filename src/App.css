@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center; 
+}
+
+
+.poker-table {
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+  background: green;
+
+}
+
+.player-cards {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+}
+
+.player-cards img {
+  width: 60px; 
+  height: auto; 
+}
+
+
+/* top */
+.poker-table > .player-cards:nth-child(1) {
+  top: 0;
+  left: 45%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+}
+
+/* left */
+.poker-table > .player-cards:nth-child(2) {
+  top: 45%;
+  left: 0;
+  transform: translateY(-50%);
+  margin-left: 20px;
+}
+
+/* right */
+.poker-table > .player-cards:nth-child(3) {
+  top: 45%;
+  right: 0;
+  transform: translateY(-50%);
+  margin-right: 20px;
+}
+
+/* bottom */
+.poker-table > .player-cards:nth-child(4) {
+  bottom: 0;
+  left: 45%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+}
+
