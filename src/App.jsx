@@ -67,7 +67,7 @@ function getRandomCard() {
 function PokerTable() {
     return (
         <div className="poker-table">
-            {/* top */}
+            {/* top cards */}
             <motion.div
                 className="player-cards"
                 initial={{ y: '-100vh' }}
@@ -78,7 +78,7 @@ function PokerTable() {
                 <img src={getRandomCard()} alt="card" />
             </motion.div>
 
-            {/* left */}
+            {/* left cards */}
             <motion.div
                 className="player-cards"
                 initial={{ x: '-100vw' }}
@@ -89,7 +89,7 @@ function PokerTable() {
                 <img src={getRandomCard()} alt="card" />
             </motion.div>
 
-            {/* right */}
+            {/* right cards */}
             <motion.div
                 className="player-cards"
                 initial={{ x: '100vw' }}
@@ -100,7 +100,7 @@ function PokerTable() {
                 <img src={getRandomCard()} alt="card" />
             </motion.div>
 
-            {/* bottom */}
+            {/* bottom cards */}
             <motion.div
                 className="player-cards"
                 initial={{ y: '100vh' }}
