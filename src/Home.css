@@ -1,14 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+
+
 .home {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
     text-align: center;
     padding: 20px;
+    height: 100vh; 
+    width: 100vw;
+    background-image: url('https://d3ltpfxjzvda6e.cloudfront.net/2014/09/25/wallpaper-cnc_10b15392.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
 }
 
 .home h1 {
     margin-bottom: 20px;
+    font-family: Raleway;
 }
 
 .home button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    font-family: Raleway;
 }
+.home button:hover {
+    background: darkseagreen;
+}
+
